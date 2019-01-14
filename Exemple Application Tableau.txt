@@ -1,0 +1,49 @@
+TP réalisé par le biais d'OPENCLASSROOM
+Pas de correction donnée d'où l'intérêt
+Obj : Maitriser les bases du C# en passant par les tableaux, les boucles...
+
+Code :
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TirageLoto
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] tab = CreationTableau();
+            AfficherTableau(tab);
+            Console.ReadKey();
+        }
+
+        static int[] CreationTableau()
+        {
+            int[] tab = new int[7];
+            Random aleatoire = new Random();
+            int nombre;
+            for (int i = 0; i < 7; i++)
+            {
+                nombre = aleatoire.Next(1, 50);
+                if (!tab.Contains(nombre))
+                {
+                    tab[i] = nombre;
+                }
+            }
+            return tab;
+        }
+
+        static void AfficherTableau(int[] tab)
+        {
+           
+            for(int i=0;i<tab.Count();i++)
+            {
+                Console.WriteLine(tab[i]);
+            }
+        }
+    }
+}
