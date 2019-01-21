@@ -1,0 +1,6 @@
+C:\Users\ISEN\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\Attributs.csproj.CoreCompileInputs.cache
+C:\Users\ISEN\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.exe
+C:\Users\ISEN\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.pdb
+C:\Users\ISEN\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.exe.config
+C:\Users\ISEN\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.exe
+C:\Users\ISEN\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.pdb
