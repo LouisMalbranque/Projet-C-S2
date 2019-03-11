@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Script de création des Gumba dans le tuyau vert
+
 public class GumbaCreator : MonoBehaviour
 {
 	public int capacity = 5;
@@ -12,7 +14,7 @@ public class GumbaCreator : MonoBehaviour
     void FixedUpdate()
     {
 
-    	if (player.transform.position.x>40 && creator==false){
+    	if (player.transform.position.x>20 && creator==false){
        		StartCoroutine(createGumpa());
        		creator=true;
        }

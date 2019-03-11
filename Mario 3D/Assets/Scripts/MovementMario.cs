@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// script de gestion des mouvements de mario et de ses interractions avec l'environement
+
 public class MovementMario : MonoBehaviour
 {
     // Update is called once per frame
@@ -10,9 +12,9 @@ public class MovementMario : MonoBehaviour
     public float jumpForce = 5;
     public short allowJump = 1;
     public Vector3 initialPosition = new Vector3(-49,1,0);
-    public static int initialHealth = 100; 
+    public static int initialHealth = 5; 
 
-    private int nombredewin=0;
+    private int nombredewin = 0;
     public static int coin = 0;
     private int powerUp = 0;
     private int health = initialHealth;
