@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// script attaché aux blocs de bois pour qu'ils se détruisent lors d'une collision avec le joueur
+
 public class BreakBlock : MonoBehaviour
 {
 

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// script de création des bonus dans les boites à bonus (champigions, pièces...)
+
 public enum Type
 {
     Life=1, Power=2, Coins=3

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//script de gestion des mouvements des gumbas
+
 public class GumbaMovement : MonoBehaviour
 {
 	public float speed = 0.05f;
